@@ -1,5 +1,7 @@
 defmodule Eddy do
   @moduledoc """
+  ![License](https://img.shields.io/github/license/libitx/eddy?color=i
+
   Eddy is a pure elixir implementation of `Ed25519`, an elliptic curve that can
   be used in signature schemes and ECDH shared secrets.
 

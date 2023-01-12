@@ -1,5 +1,9 @@
 # Eddy
 
+![Hex.pm](https://img.shields.io/hexpm/v/eddy?color=informational)
+![License](https://img.shields.io/github/license/libitx/eddy?color=informational)
+![Build Status](https://img.shields.io/github/actions/workflow/status/libitx/eddy/elixir.yml?branch=main)
+
 Eddy is a pure elixir implementation of `Ed25519`, an elliptic curve that can be
 used in signature schemes and ECDH shared secrets.
 
