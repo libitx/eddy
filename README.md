@@ -6,15 +6,16 @@
 ![License](https://img.shields.io/github/license/libitx/eddy?color=informational)
 ![Build Status](https://img.shields.io/github/actions/workflow/status/libitx/eddy/elixir.yml?branch=main)
 
-Eddy is a pure elixir implementation of `Ed25519`, an elliptic curve that can be
-used in signature schemes and ECDH shared secrets.
+Meet Eddy! A steady little `Ed25519` library for Elixir. Ed25519 is an elliptic
+curve that can be used in signature schemes and ECDH shared secrets.
 
 ## Highlights
 
-- Pure Elixir implementation of `Ed25519` - no external dependencies
+- Pure Elixir implementation of `Ed25519` (no external dependencies)
 - Secure generation of EdDSA key pairs
-- Ed25519 signature schemes and X25519 ECDH shared secrets
-- Build your own crypto - customisable hash function
+- Ed25519 signature schemes
+- X25519 (ECDH) shared secrets
+- Build your own crypto - customisable hash algo
 
 ## Instalation
 

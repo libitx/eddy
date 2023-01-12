@@ -2,17 +2,18 @@ defmodule Eddy do
   @moduledoc """
   ![Curvy](https://raw.githubusercontent.com/libitx/eddy/main/media/poster.png)
 
-  ![License](https://img.shields.io/github/license/libitx/eddy?color=i
+  ![License](https://img.shields.io/github/license/libitx/eddy?color=informational)
 
-  Eddy is a pure elixir implementation of `Ed25519`, an elliptic curve that can
-  be used in signature schemes and ECDH shared secrets.
+  Meet Eddy! A steady little `Ed25519` library for Elixir. Ed25519 is an
+  elliptic curve that can be used in signature schemes and ECDH shared secrets.
 
   ## Highlights
 
-  - Pure Elixir implementation of `Ed25519` - no external dependencies
+  - Pure Elixir implementation of `Ed25519` (no external dependencies)
   - Secure generation of EdDSA key pairs
-  - Ed25519 signature schemes and X25519 ECDH shared secrets
-  - Build your own crypto - customisable hash function
+  - Ed25519 signature schemes
+  - X25519 (ECDH) shared secrets
+  - Build your own crypto - customisable hash algo
 
   ## Instalation
 
@@ -293,7 +294,7 @@ defmodule Eddy do
   iex> sig = Eddy.sign("test", privkey)
   %Eddy.Sig{}
 
-  iex> sig = Eddy.sign("test", privkey, encoding: :base)
+  iex> sig = Eddy.sign("test", privkey, encoding: :base64)
   "uS5X1ek6+aHAYGMEMWLF5+O9W8rxK6HDHHI2QOoBOReVaAsf5sFSI3Dqvms4LUtecW/ILAOaWS1L737ye6dkBg=="
   ```
   """
