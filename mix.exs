@@ -5,7 +5,7 @@ defmodule Eddy.MixProject do
     [
       app: :eddy,
       version: "1.0.0-beta.1",
-      elixir: "~> 1.14",
+      elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       name: "Eddy",
